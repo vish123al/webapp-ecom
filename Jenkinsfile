@@ -7,7 +7,7 @@ def gitCommit() {
 
 node {
 
-    // Checkout source code from Gitv....
+    // Checkout source code from Gitv.....
    
     stage 'Checking out scm for repository'
     checkout scm
