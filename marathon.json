@@ -32,7 +32,10 @@
     "DB_PASSWORD": "secret",
     "DB_NAME": "myapp"
   },
-  
+  "labels": {
+    "HAPROXY_GROUP": "external",
+    "HAPROXY_0_VHOST": "mydemo.sds.local"
+  },
   "portDefinitions": [
     {
       "port": 10113,
